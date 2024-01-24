@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "video-editor-be"
+version = "0.1.0"
+description = "The backend for a small video editor application."
+authors = ["Bobotato <bhojwanialexander@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ffmpeg-python = "^0.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
